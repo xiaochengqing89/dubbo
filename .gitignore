@@ -1,0 +1,30 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# Ignore all logfiles and tempfiles.
+.project
+/*/.project
+
+.classpath
+/*/.classpath
+
+.classpath
+.settings
+/*/.settings
+/*/.settings/*
+
+target
+/*/target
+/*/target/*
+
+.DS_Store
+
+.svn
+.svn/*
