@@ -13,7 +13,7 @@ import java.io.IOException;
  */
 public class TestPayService {
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
+        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("classpath:META-INF/spring/dubbo-provide.xml");
         classPathXmlApplicationContext.start();
         System.out.println("生产服务器已经注册成功！");
 
